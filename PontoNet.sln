@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoNet.Api", "PontoNet.Api\PontoNet.Api.csproj", "{933BF040-3F47-449A-AF76-4280CE2D287E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoNet.Domain", "PontoNet.Domain\PontoNet.Domain.csproj", "{DE29D350-99DF-4366-A51C-CA00551DE380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoNet.Test", "PontoNet.Test\PontoNet.Test.csproj", "{1658D2A5-4D01-4A6B-AC41-CCBA54F699B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoNet.Infra", "PontoNet.Infra\PontoNet.Infra.csproj", "{77DEEFCF-39A9-4CC9-BDB0-ED5C4AC3BDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontoNet.CrossCutting", "PontoNet.CrossCutting\PontoNet.CrossCutting.csproj", "{A61E89FD-19AE-4A68-896A-D8CF7E796D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{933BF040-3F47-449A-AF76-4280CE2D287E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933BF040-3F47-449A-AF76-4280CE2D287E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933BF040-3F47-449A-AF76-4280CE2D287E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933BF040-3F47-449A-AF76-4280CE2D287E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE29D350-99DF-4366-A51C-CA00551DE380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE29D350-99DF-4366-A51C-CA00551DE380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE29D350-99DF-4366-A51C-CA00551DE380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE29D350-99DF-4366-A51C-CA00551DE380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1658D2A5-4D01-4A6B-AC41-CCBA54F699B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1658D2A5-4D01-4A6B-AC41-CCBA54F699B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1658D2A5-4D01-4A6B-AC41-CCBA54F699B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1658D2A5-4D01-4A6B-AC41-CCBA54F699B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DEEFCF-39A9-4CC9-BDB0-ED5C4AC3BDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DEEFCF-39A9-4CC9-BDB0-ED5C4AC3BDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DEEFCF-39A9-4CC9-BDB0-ED5C4AC3BDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DEEFCF-39A9-4CC9-BDB0-ED5C4AC3BDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61E89FD-19AE-4A68-896A-D8CF7E796D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61E89FD-19AE-4A68-896A-D8CF7E796D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61E89FD-19AE-4A68-896A-D8CF7E796D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61E89FD-19AE-4A68-896A-D8CF7E796D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
